@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  @media (min-width: 1366px){
+    display: grid;
+    grid-template-areas:"aside header"
+                        "aside main"
+                        "aside footer";
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  main{
+    grid-area: main;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .aside-menu{
+    grid-area: aside;
+  }
+}

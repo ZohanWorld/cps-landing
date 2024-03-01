@@ -1,0 +1,127 @@
+.brands {
+
+  .slider-menu__links {
+    @media (min-width: 320px){
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      overflow: hidden;
+      gap: 16px 0;
+      padding: 10px;
+    }
+  
+    @media (min-width: 1366px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
+        gap: 16px 0;
+        padding: 10px;
+    }
+  
+  }
+  .slider-menu__link {
+    display: block;
+    max-width: 90%;
+    max-height: 72px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    &::after {
+      display: block;
+      content: '';
+      border: 2px solid #ff3e79;
+      border-radius: 50%;
+      background-image: url('../img/dropdown.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 20%;
+      margin: 15px 10px 10px auto;
+      transition: all 0.3s ease-out;
+      width: 40px;
+      height: 40px;
+    }
+    &:hover::after{
+      transition: all 0.3s ease-out;
+      background-color: #ff3e79;
+      border: 2px solid #fff;
+      background-image: url('../img/order.svg');
+    }
+  }
+
+  .slider-menu__link--lenovo {
+    background-image: url('../img/lenovo.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__link--samsung {
+    background-image: url('../img/samsung.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__link--apple {
+    background-image: url('../img/apple.jpg');
+    background-size: 54px ;
+  }
+
+  .slider-menu__link--view-sonic {
+    background-image: url('../img/viewsonic.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__link--bosch {
+    background-image: url('../img/bosch.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__link--hp {
+    background-image: url('../img/hp.jpg');
+    background-size: 52px;
+  }
+
+  .slider-menu__link--acer {
+    background-image: url('../img/acer.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__link--sony {
+    background-image: url('../img/sony.jpg');
+    background-size: 40%;
+  }
+
+  .slider-menu__heading {
+    font-family: TT Lakes;
+    color: #7e7e82;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+
+  .show-more__wrapper{
+    @media (min-width: 320px) {
+      display: none;
+    }
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .swiper--brands {
+    width: 100%;
+    height: 110px;
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .hide-menu{
+    height: 160px;
+  }
+}
