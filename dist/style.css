@@ -1,7 +1,7 @@
 @import url(https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css);
 @font-face {
   font-family: 'TT Lakes';
-  src: url(/font/TTLakes-Regular.ttf), url(/font/TTLakes-Bold.ttf); }
+  src: url(font/TTLakes-Regular.ttf), url(font/TTLakes-Bold.ttf); }
 
 .header-navigation {
   display: flex;
@@ -717,14 +717,6 @@
         margin: 0;
         position: absolute;
         transform: translate(-70px, 20px); } }
-    .aside-call .aside-call__close-button:hover {
-      transform: scale(1.03);
-      opacity: 90%;
-      transition: all 0.3s ease-out; }
-    .aside-call .aside-call__close-button:active {
-      transform: scale(0.9);
-      opacity: 50%;
-      transition: all 0.1s ease-out; }
   .aside-call .aside-call__heading {
     font-family: TT Lakes;
     border-left: 4px solid #41F6D7;
@@ -824,14 +816,6 @@
         margin: 0;
         position: absolute;
         transform: translate(-70px, 20px); } }
-    .aside-status .aside-status__close-button:hover {
-      transform: scale(1.03);
-      opacity: 90%;
-      transition: all 0.3s ease-out; }
-    .aside-status .aside-status__close-button:active {
-      transform: scale(0.9);
-      opacity: 50%;
-      transition: all 0.1s ease-out; }
   .aside-status .aside-status__heading {
     font-family: TT Lakes;
     border-left: 4px solid #41F6D7;
