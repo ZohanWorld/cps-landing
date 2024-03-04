@@ -1,7 +1,7 @@
 @import url(https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css);
 @font-face {
   font-family: 'TT Lakes';
-  src: url(/src/fonts/TTLakes-Regular.ttf), url(/src/fonts/TTLakes-Bold.ttf); }
+  src: url(fonts/TTLakes-Regular.ttf), url(fonts/TTLakes-Bold.ttf); }
 
 .header-navigation {
   display: flex;
@@ -919,7 +919,9 @@ a {
 @media (min-width: 1366px) {
   body {
     display: grid;
-    grid-template-areas: "aside header" "aside main" "aside footer"; } }
+    grid-template-areas: "aside header"
+ "aside main"
+ "aside footer"; } }
 
 body header {
   grid-area: header; }
