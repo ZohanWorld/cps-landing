@@ -1,11 +1,7 @@
 {
   "name": "web-last-block",
   "version": "1.0.0",
-<<<<<<< Updated upstream
-  "description": "",
-=======
   "description": "- [Node 14.18.3](https://nodejs.org/download/release/v14.18.3/)\r - [NVM/MacOC](https://tecadmin.net/install-nvm-macos-with-homebrew/)\r - [NVM/Windows](https://github.com/coreybutler/nvm-windows/releases) Если Windows то установка только от имени администратора\r - [Yarn](https://yarnpkg.com/)",
->>>>>>> Stashed changes
   "keywords": [
     "web",
     "scss",
@@ -44,13 +40,8 @@
     "node-sass": "^4.14.1",
     "postcss-loader": "3.0.0",
     "sass-loader": "7.2.0",
-<<<<<<< Updated upstream
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.7",
-=======
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.7",
->>>>>>> Stashed changes
     "webpack-dev-server": "^3.11.0"
   },
   "engineStrict": true,
@@ -62,9 +53,6 @@
     "plugins": {
       "autoprefixer": {}
     }
-<<<<<<< Updated upstream
-  }
-=======
   },
   "repository": {
     "type": "git",
@@ -74,5 +62,4 @@
     "url": "https://github.com/ZohanWorld/cps-landing/issues"
   },
   "homepage": "https://github.com/ZohanWorld/cps-landing#readme"
->>>>>>> Stashed changes
 }
