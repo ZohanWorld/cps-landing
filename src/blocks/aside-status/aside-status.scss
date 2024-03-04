@@ -6,6 +6,10 @@
   margin-left: auto;
   right: 0;
   transform: translateX(400px);
+<<<<<<< Updated upstream
+=======
+  filter: blur(0px);
+>>>>>>> Stashed changes
   transition: all 0.5s ease-out;
   z-index: 2;
 
@@ -26,6 +30,7 @@
       position: absolute;
       transform: translate(-70px, 20px);
     }
+<<<<<<< Updated upstream
 
     &:hover{
       transform: scale(1.03);
@@ -38,12 +43,19 @@
       opacity: 50%;
       transition: all 0.1s ease-out;
     }
+=======
+>>>>>>> Stashed changes
   }
 
   .aside-status__heading {
     font-family: TT Lakes;
+<<<<<<< Updated upstream
     border-left: 4px solid #41F6D7;
     
+=======
+    border-left: 4px solid #41f6d7;
+
+>>>>>>> Stashed changes
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.6000000238418579px;
@@ -67,7 +79,11 @@
       margin-bottom: 16px;
     }
 
+<<<<<<< Updated upstream
     .status-confirm__input--long{
+=======
+    .status-confirm__input--long {
+>>>>>>> Stashed changes
       height: 118px;
     }
 
@@ -115,24 +131,48 @@
         height: 24px;
       }
 
+<<<<<<< Updated upstream
       &:hover{
+=======
+      &:hover {
+>>>>>>> Stashed changes
         transform: scale(1.03);
         opacity: 90%;
         transition: all 0.3s ease-out;
       }
+<<<<<<< Updated upstream
     
       &:active{
         transform: scale(.9);
+=======
+
+      &:active {
+        transform: scale(0.9);
+>>>>>>> Stashed changes
         opacity: 50%;
         transition: all 0.1s ease-out;
       }
     }
+<<<<<<< Updated upstream
 
   }
 
 }
 .hide-status{
+=======
+  }
+}
+.hide-status {
+>>>>>>> Stashed changes
   transform: translateX(0px);
   transition: all 0.5s ease-out;
   box-shadow: 10px 0 50px 0;
 }
+<<<<<<< Updated upstream
+=======
+
+.status-blur {
+  filter: blur(10px);
+  transition: all 0.5s ease-out;
+}
+>>>>>>> Stashed changes

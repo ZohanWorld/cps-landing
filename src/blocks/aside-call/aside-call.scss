@@ -6,6 +6,10 @@
   margin-left: auto;
   right: 0;
   transform: translateX(400px);
+<<<<<<< Updated upstream
+=======
+  filter: blur(0px);
+>>>>>>> Stashed changes
   transition: all 0.5s ease-out;
   z-index: 2;
 
@@ -26,6 +30,7 @@
       position: absolute;
       transform: translate(-70px, 20px);
     }
+<<<<<<< Updated upstream
 
     &:hover{
       transform: scale(1.03);
@@ -38,6 +43,8 @@
       opacity: 50%;
       transition: all 0.1s ease-out;
     }
+=======
+>>>>>>> Stashed changes
   }
 
   .aside-call__heading {
@@ -131,3 +138,11 @@
   transition: all 0.5s ease-out;
   box-shadow: 10px 0 50px 0;
 }
+<<<<<<< Updated upstream
+=======
+
+.call-blur {
+  filter: blur(10px);
+  transition: all 0.5s ease-out;
+}
+>>>>>>> Stashed changes
